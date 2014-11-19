@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fashionable New Tab</title>
+    <style>
+      body {
+        background-color: #EFEFEF;
+        margin: 0;
+        padding: 0;
+      }
+      .background-image {
+        border: 0;
+        display: block;
+        height: 640px;
+        position: relative;
+        width: 1536px;
+      }
+      .sale-description {
+        background-color: black;
+        bottom: 0;
+        display: block;
+        left: 0;
+        opacity: 0.8;
+        padding: 15px;
+        position: absolute;
+        width: 400px;
+      }
+      .name, .description, .gilt {
+        color: #EFEFEF;
+        display: block;
+        padding: 5px;
+      }
+      .name {
+        font-family: Arial;
+        font-size: 24px;
+      }
+      .description {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .gilt {
+        font-size: 14px;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="background-image" href="">
+      <span class="sale-description">
+        <span class="name"></span>
+        <span class="description"></span>
+        <span class="gilt">On sale now at Gilt.com</span>
+      </span>
+    </a>
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript" src="fetch-image.js"></script>
+  </body>
+</html>
